@@ -35,10 +35,12 @@ build:
 
 integrations:
   notifications:
-    - integrationName: irc
-      type: irc
+    - integrationName: harsh-slack
+      type: slack
       recipients:
-        - "chat.freenode.net#shipTest"
+        - "#random"
       on_start: always
       on_success: always
+      on_failure: always
+      on_pull_request: always
 

@@ -9,11 +9,16 @@ node_js:
 env:
   global:
     - FOO=FUBU
+    - FO1=BUBU
     - BOO=GUBU
 
   matrix:
     - M1=ONE
     - M2=TWO
+
+build:
+  pre_ci:
+    - docker build -t=harsh157/sample_node .
 
   pre_ci_boot:
     image_name: harsh157/sample_node

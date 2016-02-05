@@ -16,10 +16,6 @@ env:
     - M1=ONE
     - M2=TWO
 
-build:
-  pre_ci:
-    - docker build -t=harsh157/sample_node .
-
   pre_ci_boot:
     image_name: harsh157/sample_node
     image_tag: latest
@@ -32,15 +28,3 @@ build:
 
   post_ci:
     - echo "true"
-
-integrations:
-  notifications:
-    - integrationName: harsh-slack
-      type: slack
-      recipients:
-        - "#random"
-      on_start: always
-      on_success: always
-      on_failure: always
-      on_pull_request: always
-

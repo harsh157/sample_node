@@ -1,7 +1,7 @@
 # Language setting
 language: node_js
 
-service:
+services:
   - elasticsearch
 
 # Version number

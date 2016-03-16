@@ -1,5 +1,5 @@
 # Language setting
-language: ruby
+language: node
 
 services:
   - elasticsearch

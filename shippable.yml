@@ -1,6 +1,8 @@
 # Language setting
 language: node_js
 
+service:
+  - elasticsearch
 
 # Version number
 node_js:
@@ -16,9 +18,6 @@ env:
     - M1=ONE
 
 build:
-
-  pre_ci:
-    - docker build --rm -t harsh157/sample_node:tip .
 
   ci:
     - ps -eax

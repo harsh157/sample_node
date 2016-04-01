@@ -15,10 +15,10 @@ build:
   ci:
     - ps -eax
     - ls -al
+    - pwd
 
   post_ci:
     - echo "true"
-    
-  cache: true
+
 
 

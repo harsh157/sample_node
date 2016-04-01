@@ -19,7 +19,6 @@ build:
 
   ci:
     - ps -eax
-    - { "abc.abc" : "abc"}
-
+    - "abc.abc" : "abc"
   
 

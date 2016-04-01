@@ -22,7 +22,8 @@ build:
     
 integrations:
   notifications:
-    - abcd: "new"
+    - integrationName: "asfdsaf"
+    abcd: "new"
     
   
   

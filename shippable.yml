@@ -15,10 +15,11 @@ env:
   matrix:
     - M1=ONE
 
-build:
+abc.abc:
 
   ci:
     - ps -eax
-    - "abc.abc" : "abc"
+    
+  
   
 

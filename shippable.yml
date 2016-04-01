@@ -19,8 +19,7 @@ build:
 
   ci:
     - ps -eax
-    - ls -al
+    - { "abc.abc" : "abc"}
 
-  post_ci:
-    abc.abc: "abc"
+  
 

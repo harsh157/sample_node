@@ -21,8 +21,8 @@ build:
     - ps -eax
     
 integrations:
-  abc.abc:
-    -integrationName: "new"
+  hub:
+    - abc.abc: "new"
     
   
   

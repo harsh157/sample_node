@@ -24,7 +24,3 @@ build:
   post_ci:
     - echo "true"
 
-integrations:
-  hub:
-    - integrationName: "harsh"
-      type: "docker"

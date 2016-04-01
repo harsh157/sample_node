@@ -21,6 +21,6 @@ build:
     - ps -eax
     - ls -al
 
-  abc.abc:
-    - echo "true"
+  post_ci:
+    abc.abc: "abc"
 

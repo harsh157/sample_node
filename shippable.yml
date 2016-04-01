@@ -1,9 +1,6 @@
 # Language setting
 language: node_js
 
-services:
-  - elasticsearch
-
 env:
   global:
     - FOO=FUBU

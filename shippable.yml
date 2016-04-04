@@ -21,10 +21,10 @@ build:
     - ps -eax
     
 integrations:
-  notifications:
-    - integrationName: "harsh-slack"
-      type: "slack"
-      abc-abc: "abc"
+  hub:
+    - integrationName: "harsh"
+      type: "docker"
+      agent_only: false
     
   
   

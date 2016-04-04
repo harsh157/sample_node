@@ -20,6 +20,11 @@ build:
   ci:
     - ps -eax
     
+integrations:		
+  hub:		
+    - integrationName: "harsh"		
+      type: "docker"
+    
 
     
 

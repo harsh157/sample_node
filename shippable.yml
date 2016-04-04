@@ -25,9 +25,6 @@ integrations:
   hub:
     - integrationName: "harsh"
       type: "docker"
-      abc.abc: ["abc"]
-      abce: {"abc" : "abc"}
-      abcd: "abc"
     
 
     

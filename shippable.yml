@@ -23,7 +23,6 @@ build:
 integrations:
   notifications:
     - integrationName: "harsh-slack"
-      abcd: "abc"
     
   
   

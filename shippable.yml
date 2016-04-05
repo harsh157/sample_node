@@ -29,8 +29,6 @@ integrations:
         only:
           - master
           - simple
-        abc.abc:
-          - master
     
 
     

@@ -27,9 +27,7 @@ integrations:
       abc.abc: "abc"
       branches:
         only:
-          - master
-          - simple
-      abc.abc: "abc"
+          abc.abc: "abc"
     
 
     

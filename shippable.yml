@@ -24,10 +24,12 @@ integrations:
   notifications:		
     - integrationName: "harsh-slack"		
       type: "slack"
+      abc.abc: "abc"
       branches:
         only:
           - master
           - simple
+        
     
 
     

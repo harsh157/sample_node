@@ -25,7 +25,7 @@ intgrations:
     - integrationName: "harsh"
       branches:
         only:
-          abc.abc: "abc"
+          - master
 
     
 

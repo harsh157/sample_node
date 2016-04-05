@@ -23,9 +23,8 @@ build:
 intgrations:
   hub:
     - integrationName: "harsh"
-      branches:
-        only:
-          abc.abc: "abc"
+      abc: 
+        abc.abc: "abc.abc"
 
     
 

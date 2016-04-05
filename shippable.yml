@@ -21,9 +21,9 @@ build:
     - ps -eax
     
 integrations:		
-  hub:		
-    - integrationName: "harsh"		
-      type: "docker"
+  notifications:		
+    - integrationName: "harsh-slack"		
+      type: "slack"
       branches:
         only:
           - master

@@ -19,6 +19,13 @@ build:
 
   ci:
     - ps -eax
+    
+intgrations:
+  hub:
+    - integrationName: "harsh"
+      branches:
+        only:
+          abc.abc: "abc"
 
     
 

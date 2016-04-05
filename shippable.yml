@@ -24,7 +24,6 @@ integrations:
   hub:		
     - integrationName: "harsh"		
       type: "docker"
-      abc.abc: "abc"
       branches:
         only:
           - master

@@ -28,7 +28,6 @@ integrations:
         only:
           - master
           - simple
-        abc.abc: "abc"
     
 
     

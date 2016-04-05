@@ -26,7 +26,7 @@ integrations:
       type: "docker"
       abc.abc: "abc"
       branches:
-        except:
+        only:
           - master
           - simple
     

@@ -1,8 +1,6 @@
 # Language setting
 language: node_js
 
-services:
-  - postgres
 # Version number
 node_js:
   - 0.12

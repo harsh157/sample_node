@@ -1,7 +1,8 @@
 # Language setting
 language: node_js
 
-
+services:
+  - postgres
 # Version number
 node_js:
   - 0.12
@@ -11,6 +12,7 @@ env:
     - FOO=FUBU
     - FO1=BUBU
     - BOO=GUBU
+    - SHIPPABLE_POSTGRES_CMD=sudo -u postgres $SHIPPABLE_POSTGRES_BINARY  
 
   matrix:
     - M1=ONE
@@ -19,12 +21,7 @@ build:
 
   ci:
     - ps -eax
-    
-intgrations:
-  hub:
-    - integrationName: "harsh"
-      abc: 
-        abc.abc: "abc.abc"
+
 
     
 

@@ -7,7 +7,8 @@ env:
     - FOO=FUBU
     - FO1=BUBU
     - BOO=GUBU
-    - ABC="$SHIPPABLE_POSTGRES_BINARY"
+    - SHIPPABLE_POSTGRES_VERSION="9.4"
+    - SHIPPABLE_POSTGRES_BINARY="/usr/lib/postgresql/$SHIPPABLE_POSTGRES_VERSION/bin/postgres"
     - SHIPPABLE_POSTGRES_CMD="sudo -u postgres $SHIPPABLE_POSTGRES_BINARY"
 
   matrix:

@@ -12,7 +12,7 @@ env:
     - FOO=FUBU
     - FO1=BUBU
     - BOO=GUBU
-    - SHIPPABLE_POSTGRES_CMD="sudo -u postgres $SHIPPABLE_POSTGRES_BINARY"  
+    - SHIPPABLE_POSTGRES_CMD="abc"  
 
   matrix:
     - M1=ONE

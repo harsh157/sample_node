@@ -20,7 +20,7 @@ env:
     - SHIPPABLE_COUCHDB_CMD="couchdb"
     - SHIPPABLE_ES_CMD="elasticsearch"
     - SHIPPABLE_MEMCACHED_CMD="$SHIPPABLE_MEMCACHED_BINARY -d -u nobody"
-    - SHIPPABLE_MONGODB_CMD="mongod"
+    - SHIPPABLE_MONGODB_CMD="/usr/bin/mongod"
 
   matrix:
     - M1=ONE

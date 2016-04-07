@@ -1,19 +1,17 @@
 # Language setting
 language: node_js
 
-services:
-  - postgres
-  - couchdb
-  - elasticsearch
-  - memcached
-  - mongodb
+addons:
+  postgres: 9.3
 
 env:
   global:
     - FOO=FUBU
     - FO1=BUBU
-    - BOO=GUBU
-
+    - BOO=GUBU	
+    - SHIPPABLE_POSTGRES_BINARY="/usr/lib/postgresql/$SHIPPABLE_POSTGRES_VERSION/bin/postgres		
+    - SHIPPABLE_MEMCACHED_BINARY="/usr/local/bin/memcached"		
+    - SHIPPABLE_POSTGRES_CMD="sudo -u postgres $SHIPPABLE_POSTGRES_BINARY -c \"config_file=/etc/postgresql/$SHIPPABLE_POSTGRES_VERSION/main/postgresql.conf\" -c \"fsync=off\" -c \"synchronous_commit=off\""
   matrix:
     - M1=ONE
 

@@ -2,7 +2,7 @@
 language: node_js
 
 services:
-  -postgres
+  - postgres
 
 env:
   global:

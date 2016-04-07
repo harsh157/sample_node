@@ -12,7 +12,7 @@ env:
     - FOO=FUBU
     - FO1=BUBU
     - BOO=GUBU
-    - SHIPPABLE_POSTGRES_CMD="postgres $SHIPPABLE_POSTGRES_BINARY -c config_file=/etc/postgresql/$SHIPPABLE_POSTGRES_VERSION/main/postgresql.conf"  
+    - SHIPPABLE_POSTGRES_CMD="sudo -u postgres $SHIPPABLE_POSTGRES_BINARY -c \"config_file=/etc/postgresql/$SHIPPABLE_POSTGRES_VERSION/main/postgresql.conf\" -c \"fsync=off\" -c \"synchronous_commit=off\""  
 
   matrix:
     - M1=ONE

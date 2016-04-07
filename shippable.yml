@@ -1,9 +1,6 @@
 # Language setting
 language: node_js
 
-# Version number
-node_js:
-  - 0.12
 
 env:
   global:
@@ -20,7 +17,7 @@ build:
 
   ci:
     - ps -eax
-    - echo ABC
+    - echo $ABC
 
 
     

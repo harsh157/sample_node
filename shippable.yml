@@ -16,7 +16,10 @@ env:
     - M1=ONE
 
 build:
-
+  pre_ci_boot: 
+    image_name: shippable/minv2
+    image_tag: latest
+    pull: true
   ci:
     - ps -eax
     - echo $ABC

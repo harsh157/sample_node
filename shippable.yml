@@ -14,13 +14,6 @@ env:
     - FOO=FUBU
     - FO1=BUBU
     - BOO=GUBU
-    - SHIPPABLE_SELENIUM_BINARY="/usr/local/selenium/selenium-server-standalone-2.52.0.jar"
-    - SHIPPABLE_MYSQL_CMD="/usr/bin/mysqld_safe"
-    - SHIPPABLE_NEO4J_CMD="/var/lib/neo4j/bin/neo4j start"
-    - SHIPPABLE_RABBITMQ_CMD="/usr/sbin/rabbitmq-server"
-    - SHIPPABLE_REDIS_CMD="/usr/bin/redis-server"
-    - SHIPPABLE_RETHINKDB_CMD="/usr/bin/rethinkdb"
-    - SHIPPABLE_SELENIUM_CMD="java -Djava.security.egd=file:///dev/urandom -jar $SHIPPABLE_SELENIUM_BINARY"
 
   matrix:
     - M1=ONE

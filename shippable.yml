@@ -32,13 +32,3 @@ build:
 
   post_ci:
     - echo "true"
-
-integrations:
-  notifications:
-    - integrationName: irc
-      type: irc
-      recipients:
-        - "chat.freenode.net#shipTest"
-      on_start: always
-      on_success: always
-
